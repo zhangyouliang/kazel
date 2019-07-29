@@ -1,4 +1,4 @@
-module github.com/hawkingrei/kazel
+module github.com/zhangyouliang/kazel
 
 go 1.12
 

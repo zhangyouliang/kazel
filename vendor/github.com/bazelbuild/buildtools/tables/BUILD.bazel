@@ -6,7 +6,7 @@ go_library(
         "jsonparser.go",
         "tables.go",
     ],
-    importmap = "github.com/hawkingrei/kazel/vendor/github.com/bazelbuild/buildtools/tables",
+    importmap = "github.com/zhangyouliang/kazel/vendor/github.com/bazelbuild/buildtools/tables",
     importpath = "github.com/bazelbuild/buildtools/tables",
     visibility = ["//visibility:public"],
 )

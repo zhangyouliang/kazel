@@ -33,7 +33,7 @@ import (
 	bzl "github.com/bazelbuild/buildtools/build"
 	"github.com/golang/glog"
 
-	"github.com/hawkingrei/kazel/sets"
+	"github.com/zhangyouliang/kazel/sets"
 )
 
 const (

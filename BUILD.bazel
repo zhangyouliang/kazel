@@ -4,7 +4,7 @@ package(default_visibility = ["//visibility:public"])
 
 load("@bazel_gazelle//:def.bzl", "gazelle")
 
-# gazelle:prefix github.com/hawkingrei/kazel
+# gazelle:prefix github.com/zhangyouliang/kazel
 gazelle(name = "gazelle")
 
 go_library(
@@ -18,7 +18,7 @@ go_library(
         "proto.go",
         "sourcerer.go",
     ],
-    importpath = "github.com/hawkingrei/kazel",
+    importpath = "github.com/zhangyouliang/kazel",
     deps = [
         "//sets:go_default_library",
         "//vendor/github.com/bazelbuild/buildtools/build:go_default_library",

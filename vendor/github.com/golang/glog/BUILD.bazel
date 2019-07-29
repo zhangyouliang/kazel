@@ -6,7 +6,7 @@ go_library(
         "glog.go",
         "glog_file.go",
     ],
-    importmap = "github.com/hawkingrei/kazel/vendor/github.com/golang/glog",
+    importmap = "github.com/zhangyouliang/kazel/vendor/github.com/golang/glog",
     importpath = "github.com/golang/glog",
     visibility = ["//visibility:public"],
 )
