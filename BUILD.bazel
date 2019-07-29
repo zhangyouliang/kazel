@@ -14,7 +14,7 @@ go_library(
         "diff.go",
         "fileinfo.go",
         "generator.go",
-        "main.go",
+        "kazel.go",
         "proto.go",
         "sourcerer.go",
     ],
